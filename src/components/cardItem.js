@@ -1,5 +1,6 @@
 import "../style.css"
 
+
 const offenseL = ["QB", "WR", "TE", "RB", "OT", "C", "K"]
 
 const CardItem = ({item, addCart, removeCart, aggregator}) => {
@@ -12,7 +13,7 @@ const CardItem = ({item, addCart, removeCart, aggregator}) => {
 
     return (
         <div className="card-info">
-            <img src={"../"+item.image} alt={item.name}></img>
+            <img src={item.image} alt={item.name}></img>
             <h3>{item.name}</h3>
             <div className="card-footer">
                 {aggregator.includes(item) ? 
