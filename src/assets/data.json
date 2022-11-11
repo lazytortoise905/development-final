@@ -1,0 +1,108 @@
+[
+    {
+      "name": "AJ Brown",
+      "number": 11,
+      "position": "WR",
+      "image": "images/aj_brown.png",
+      "games_played": 51 
+    },
+    {
+      "name": "Brandon Graham",
+      "number": 55,
+      "position": "DE",
+      "image": "images/brandon_graham.png",
+      "games_played": 153 
+    },
+    {
+      "name": "CJ Gardner-Johnson",
+      "number": 23,
+      "position": "S",
+      "image": "images/cj_gardner-johnson.png",
+      "games_played": 51
+    },
+    {
+      "name": "Dallas Goedert",
+      "number": 88,
+      "position": "TE",
+      "image": "images/dallas_goedert.png",
+      "games_played": 65 
+    },
+    {
+      "name": "Darius Slay",
+      "number": 2,
+      "position": "CB",
+      "image": "images/darius_slay.png",
+      "games_played": 142
+    },
+    {
+      "name": "Devonta Smith",
+      "number": 6,
+      "position": "WR",
+      "image": "images/devonta_smith.png",
+      "games_played": 25
+    },
+    {
+      "name": "Fletcher Cox",
+      "number": 91,
+      "position": "DE",
+      "image": "images/fletcher_cox.png",
+      "games_played": 164 
+    },
+    {
+      "name": "Haason Reddick",
+      "number": 7,
+      "position": "OLB",
+      "image": "images/haason_reddick.png",
+      "games_played": 88
+    },
+    {
+      "name": "Jake Elliott",
+      "number": 4,
+      "position": "K",
+      "image": "images/jake_elliott.png",
+      "games_played": 87 
+    },
+    {
+      "name": "Jalen Hurts",
+      "number": 1,
+      "position": "QB",
+      "image": "images/jalen_hurts.png",
+      "games_played": 38
+    },
+    {
+      "name": "James Bradberry",
+      "number": 24,
+      "position": "CB",
+      "image": "images/james_bradberry.png",
+      "games_played": 100
+    },
+    {
+      "name": "Jason Kelce",
+      "number": 62,
+      "position": "C",
+      "image": "images/jason_kelce.png",
+      "games_played": 151
+    },
+    {
+      "name": "Jordan Davis",
+      "number": 90,
+      "position": "DT",
+      "image": "images/jordan_davis.png",
+      "games_played": 7
+    },
+    {
+      "name": "Lane Johnson",
+      "number": 65,
+      "position": "OT",
+      "image": "images/lane_johnson.png",
+      "games_played": 117
+    },
+    {
+      "name": "Miles Sanders",
+      "number": 26,
+      "position": "RB",
+      "image": "images/miles_sanders.png",
+      "games_played": 48
+    }
+  ]
+  
