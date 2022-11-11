@@ -12,10 +12,10 @@ aspect of this app.
 
 ### Usability Principles Considered
 An important usability issue I considered was contrast. I made sure that the
-text was readable and clear in all configurations of the app to enhace
+text was readable and clear in all configurations of the app to enhance
 accessbility. Additionally, I chose a visual hierarchy that is clear and
 intuitive. The controls are on the left side of the screen which is a
-populare structure due to the left-to-right nature of how users perceive
+popular structure due to the left-to-right nature of how users perceive
 user interfaces. As they move over the page they are met with the players that
 the controls can manipulate, and then finally their favorites list.
 
@@ -28,12 +28,12 @@ Since these are flex boxes, this also makes the page scale very well.
 
 ### Organization of Components
 The main component is `app.js` which has three child components:
-`aggregator.js` `cardItem.js` and `control.js`. The first of these controls
-the favorites list on the right and displays information about the players
+`aggregator.js` `cardItem.js` and `control.js`. The first of these controls is
+the favorites list on the right which displays information about the players
 the user has selected as well as an aggregation of their total combined
 games played. The second component is a singular cardItem which takes as a prop
-as player object and displays information about them (picture, number, position,
-side of the football, games played, name, and an add button). This makes the code
+a player object and displays information about them (picture, number, position,
+side of the football, games played, name, and an add/remove button). This makes the code
 very abstract as a list of the players can be mapped into a list of card items
 that is then displayed by the parent (app.js). Finally, the third component
 contains the block on the left which is home to the controls
