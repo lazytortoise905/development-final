@@ -55,6 +55,12 @@ button:hover {
     row-gap: 10px;
 }
 
+@media screen and (max-width: 900px) {
+    .cards-items {
+        grid-template-columns: 100%;
+    }
+}
+
 
 .app-divider {
     display: flex;
@@ -88,6 +94,14 @@ button:hover {
     padding: 10px;
     color: var(--theme);
     row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .control-container {
+        font-size: x-small;
+    }
 }
 
 .control-buttons {
@@ -96,6 +110,13 @@ button:hover {
     justify-content: center;
     column-gap: 10%;
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .control-buttons {
+        flex-direction: column;
+        row-gap: 10px;
+    }
 }
 
 .number {
@@ -139,4 +160,17 @@ button:hover {
 
 button[active = true] {
     background-color: darkred;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: x-small;
+    }
+    .card-info {
+        padding: 5px;
+    }
+
+    .card-footer {
+        max-width: 50px;
+    }
 }

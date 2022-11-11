@@ -17,8 +17,8 @@ const CardItem = ({item, addCart, removeCart, aggregator}) => {
             <h3>{item.name}</h3>
             <div className="card-footer">
                 {aggregator.includes(item) ? 
-                    <button onClick={(remover)} active="true">Remove</button> :
-                    <button onClick={(adder)}>Add</button>
+                    <button className="override" onClick={(remover)} active="true">Remove</button> :
+                    <button className="override" onClick={(adder)}>Add</button>
                 }
             </div>
             <h2 className="number">#{item.number}</h2>
